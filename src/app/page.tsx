@@ -1,8 +1,8 @@
 
 export default function Home() {
   return (
-    <div>
-      ABC
-    </div>
+    <main>
+      
+    </main>
   );
 }
