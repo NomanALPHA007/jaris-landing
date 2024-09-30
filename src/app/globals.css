@@ -24,7 +24,7 @@
 	}
 
 	.heading-md {
-		@apply text-5xl leading-[48px] sm:text-5xl md:text-6xl lg:text-6xl;
+		@apply text-5xl leading-[48px] sm:text-5xl md:text-6xl lg:text-7xl;
 	}
 
 	.heading-secondary {
