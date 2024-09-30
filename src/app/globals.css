@@ -30,6 +30,29 @@
 	.heading-secondary {
 		@apply text-2xl leading-[38px] sm:text-2xl md:text-3xl lg:text-4xl;
 	}
+
+	.underline-animated {
+		position: relative;
+		display: inline-block;
+		color: #000;
+	}
+	
+	.underline-animated::after {
+		content: '';
+		position: absolute;
+		left: 0;
+		bottom: -0.7rem;
+		height: 0.3rem;
+		width: 100%;
+		background-color: theme('colors.jaris-gold');
+		transition: transform 0.3s ease, width 0.3s ease;
+		transform-origin: center;
+	}
+	
+	.underline-animated:hover::after {
+		width: 100%;
+		transform: scaleX(0);
+	}
 }
 
 @layer utilities {
