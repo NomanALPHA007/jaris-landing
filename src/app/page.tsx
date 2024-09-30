@@ -1,4 +1,4 @@
-import { Discover, Hero, JoinUs } from "@/sections";
+import { Discover, Hero, JoinUs, Mission } from "@/sections";
 
 export default function Home() {
   return (
@@ -6,6 +6,7 @@ export default function Home() {
       <Hero />
       <Discover />
       <JoinUs />
+      <Mission />
     </main>
   );
 }
