@@ -87,6 +87,14 @@
 	.info-text {
 		@apply text-slate-gray text-lg leading-7;
 	}
+
+  .clip-path-polygon {
+    clip-path: polygon(100% 0%, 0% 50%, 100% 100%);
+  }
+
+  .clip-path-yellow {
+    clip-path: polygon(100% 0%, 0% 50%, 100% 100%);
+  }
 }
 
 .swiper-slide, .swiper-slide * {
