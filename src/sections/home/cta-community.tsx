@@ -2,7 +2,7 @@ import React from "react";
 
 const CTACommunity = () => {
 	return (
-		<div className="h-screen max-md:h-[60vh] padding-y md:py-40 lg:px-32 ">
+		<div className="h-screen bg-bg-primary max-md:h-[60vh] padding-y md:py-40 lg:px-32 ">
 			<div className="relative h-full w-full flex items-center justify-center">
 				<div className="absolute inset-0 bg-[url('/images/home/cta-community-image.jpeg')] bg-cover bg-center bg-no-repeat filter brightness-75" />
 				<div className="relative z-20 mt-28 flex flex-col items-center justify-center gap-5">
