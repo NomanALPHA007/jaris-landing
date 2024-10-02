@@ -4,6 +4,7 @@ import { Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 import { ctaSchoolsCarouselItems } from "@/data";
+import { Button, Link } from "@nextui-org/react";
 
 const CTASchools = () => {
 	const pagination = {
@@ -16,7 +17,7 @@ const CTASchools = () => {
 	return (
 		<div className='relative w-full padding-y lg:py-36 bg-[url("/images/home/home-hero-slide-1.jpeg")] '>
 			<div className="absolute inset-0 bg-jaris-blue opacity-75" />
-			<div className="w-full flex flex-col items-center justify-center gap-40">
+			<div className="relative z-20 w-full flex flex-col items-center justify-center gap-44">
 				<Swiper
 					slidesPerView={"auto"}
 					centeredSlides={true}
@@ -46,6 +47,25 @@ const CTASchools = () => {
 						</SwiperSlide>
 					))}
 				</Swiper>
+				<div className="flex flex-col items-start justify-center gap-12">
+					<div className="heading-md">
+						<p className="text-jaris-gold">Unleash Your Full</p>
+						<p className="text-jaris-gold">Potential With Us</p>
+            <p className="text-bg-text">Start Your Journey Today!</p>
+					</div>
+          <div className="flex items-center justify-center gap-3">
+            <Link href="#">
+              <Button size="lg" variant="bordered" className="border-jaris-gold border-3 rounded-md">
+                <span className="subtitle text-jaris-gold font-semibold">Explore our Schools</span>
+              </Button>
+            </Link>
+            <Link href="#">
+              <Button size="lg" variant="solid" className="bg-jaris-gold rounded-md">
+                <span className="subtitle text-jaris-blue font-semibold">Contact Us</span>
+              </Button>
+            </Link>
+          </div>
+				</div>
 			</div>
 		</div>
 	);
