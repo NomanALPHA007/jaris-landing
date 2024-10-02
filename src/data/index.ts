@@ -28,4 +28,27 @@ export const homeExperiences = [
     title: "90% School Attendance rate",
     subtitle: "With a remarkable 90% attendance rate, our school empowers students for successful futures, Our education equips graduates with skills, knowledge and confidence to excel in higher education and beyond.",
   },
+];
+
+export const homePartnerSlides = [
+  {
+    title: "Islamabad Board",
+    imgUrl: "/images/home/islamabad-board.png",
+  },
+  {
+    title: "Egypt Education Board",
+    imgUrl: "/images/home/egypt-ministry-education.png",
+  },
+  {
+    title: "Cambridge",
+    imgUrl: "/images/home/cambridge.png",
+  },
+  {
+    title: "College Board",
+    imgUrl: "/images/home/collegeboard.png",
+  },
+  {
+    title: "Sudan Education Board",
+    imgUrl: "/images/home/sudan-ministry-education.png",
+  },
 ]
