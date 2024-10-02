@@ -1,3 +1,5 @@
+import { ICONS } from "@/utils/icons";
+
 export const homeCarouselItems = [
 	{
 		subtitle: "DISCOVER",
@@ -55,6 +57,20 @@ export const homePartnerSlides = [
 	},
 ];
 
-export const studentCount = 750;
-export const teacherCount = 350;
-export const staffCount = 750;
+export const counts = [
+	{
+		title: "Our Students",
+		count: 750,
+		icon: ICONS.student,
+	},
+	{
+		title: "Our Teachers",
+		count: 360,
+		icon: ICONS.teacher,
+	},
+	{
+		title: "Our Staff",
+		count: 750,
+		icon: ICONS.staff,
+	},
+]

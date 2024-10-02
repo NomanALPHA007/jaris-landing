@@ -5,6 +5,7 @@ import JoinUs from "./home/join-us";
 import Mission from "./home/mission";
 import CTACommunity from "./home/cta-community";
 import Experience from "./home/experience";
+import Counts from "./home/counts";
 
 export {
   Hero,
@@ -13,4 +14,5 @@ export {
   Mission,
   CTACommunity,
   Experience,
+  Counts,
 }

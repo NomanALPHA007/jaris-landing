@@ -1,4 +1,4 @@
-import { Discover, Hero, JoinUs, Mission, CTACommunity, Experience, } from "@/sections";
+import { Discover, Hero, JoinUs, Mission, CTACommunity, Experience, Counts, } from "@/sections";
 
 export default function Home() {
   return (
@@ -9,6 +9,7 @@ export default function Home() {
       <Mission />
       <CTACommunity />
       <Experience />
+      <Counts />
     </main>
   );
 }
