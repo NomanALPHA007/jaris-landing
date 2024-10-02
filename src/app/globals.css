@@ -53,6 +53,14 @@
 		width: 100%;
 		transform: scaleX(0);
 	}
+
+	.cta-swiper .swiper-pagination-bullet {
+    @apply w-[25px] h-[25px] text-center leading-[20px] text-[12px] text-white bg-transparent border-black/70 border-2;
+  }
+
+  .cta-swiper .swiper-pagination-bullet-active {
+    @apply border-white;
+  }
 }
 
 @layer utilities {

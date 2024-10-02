@@ -73,4 +73,27 @@ export const counts = [
 		count: 750,
 		icon: ICONS.staff,
 	},
+];
+
+export const ctaSchoolsCarouselItems = [
+	{
+		title: "INSPIRATION",
+		subtitle: "I fell in love with photography in ninth grade at HW.",
+		imgUrl: "/images/home/cta-school-carousel-slide-1.png",
+	},
+	{
+		title: "INSPIRATION",
+		subtitle: "I fell in love with photography in ninth grade at HW.",
+		imgUrl: "/images/home/cta-school-carousel-slide-1.png",
+	},
+	{
+		title: "INSPIRATION",
+		subtitle: "I fell in love with photography in ninth grade at HW.",
+		imgUrl: "/images/home/cta-school-carousel-slide-1.png",
+	},
+	{
+		title: "INSPIRATION",
+		subtitle: "I fell in love with photography in ninth grade at HW.",
+		imgUrl: "/images/home/cta-school-carousel-slide-1.png",
+	},
 ]
