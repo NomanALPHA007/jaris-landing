@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 const JoinUs = () => {
 	return (
 		<div className="h-[60vh] lg:h-[75vh] bg-jaris-blue flex items-center justify-center">
-			<div className="title font-bold flex gap-5">
+			<div className="title font-bold flex gap-3 md:gap-5">
 				<motion.div
 					initial={{ opacity: 0, x: -20 }}
 					whileInView={{ opacity: 1, x: 0 }}
