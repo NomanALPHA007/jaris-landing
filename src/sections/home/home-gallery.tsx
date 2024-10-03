@@ -3,7 +3,7 @@ import React from "react";
 
 const HomeGallery = () => {
 	return (
-		<div className="md:h-screen padding lg:px-48 xl:p-64 lg:py-28 flex items-center justify-center gap-8">
+		<div className="bg-bg-primary md:h-screen padding lg:px-48 xl:p-64 lg:py-28 flex items-center justify-center gap-8">
 			<div className="flex flex-col items-start gap-12 flex-1">
 				<div className="flex flex-col gap-1">
 					<h4 className="heading-secondary font-bold text-jaris-blue">
