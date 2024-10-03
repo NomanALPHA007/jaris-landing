@@ -55,12 +55,12 @@ const CTASchools = () => {
 					</div>
           <div className="flex items-center justify-center gap-3">
             <Link href="#">
-              <Button size="lg" variant="bordered" className="border-jaris-gold border-3 rounded-md">
+              <Button size="lg" variant="bordered" className="border-jaris-gold border-3 rounded-md lg:px-8">
                 <span className="subtitle text-jaris-gold font-semibold">Explore our Schools</span>
               </Button>
             </Link>
             <Link href="#">
-              <Button size="lg" variant="solid" className="bg-jaris-gold rounded-md">
+              <Button size="lg" variant="solid" className="bg-jaris-gold rounded-md lg:px-8">
                 <span className="subtitle text-jaris-blue font-semibold">Contact Us</span>
               </Button>
             </Link>
