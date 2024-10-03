@@ -3,8 +3,8 @@ import React from "react";
 
 const HomeGallery = () => {
 	return (
-		<div className="bg-bg-primary md:h-screen padding lg:px-48 xl:p-64 lg:py-28 flex items-center justify-center gap-8">
-			<div className="flex flex-col items-start gap-12 flex-1">
+		<div className="bg-bg-primary lg:h-screen padding lg:px-24 xl:px-48 xl:p-64 lg:py-28 flex max-lg:flex-col-reverse items-center justify-center gap-24 lg:gap-8">
+			<div className="flex flex-col items-start gap-12 flex-1 ">
 				<div className="flex flex-col gap-1">
 					<h4 className="heading-secondary font-bold text-jaris-blue">
 						Photo Gallery
@@ -25,22 +25,22 @@ const HomeGallery = () => {
 					</Button>
 				</Link>
 			</div>
-			<div className="flex gap-4">
+			<div className="flex gap-4 max-lg:flex-col max-lg:items-center max-lg:justify-center">
 				<Image
 					src="/images/home/gallery1.jpeg"
 					alt="Gallery"
-					className="w-[300px] h-full object-cover object-right flex-shrink-0"
+					className="w-[80%] max-lg:m-auto lg:w-[270px] xl:w-[350px] lg:h-full object-cover object-right flex-shrink-0"
 				/>
-				<div className="h-full flex flex-col gap-4 ">
+				<div className="h-full w-[80%] flex flex-col gap-4 ">
 					<Image
 						src="/images/home/gallery2.jpeg"
 						alt="Gallery"
-						className="h-[240px]"
+						className="max-lg:w-full lg:h-[200px] xl:h-[240px] lg:w-[270px] xl:w-[350px]"
 					/>
 					<Image
 						src="/images/home/gallery3.jpeg"
 						alt="Gallery"
-						className=" h-[240px]"
+						className="max-lg:w-full lg:h-[200px] xl:h-[240px] lg:w-[270px] xl:w-[350px]"
 					/>
 				</div>
 			</div>
