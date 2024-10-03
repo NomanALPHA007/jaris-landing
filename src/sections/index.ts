@@ -7,6 +7,7 @@ import CTACommunity from "./home/cta-community";
 import Experience from "./home/experience";
 import Counts from "./home/counts";
 import CTASchools from "./home/cta-schools";
+import HomeGallery from "./home/home-gallery";
 
 export {
   Hero,
@@ -17,4 +18,5 @@ export {
   Experience,
   Counts,
   CTASchools,
+  HomeGallery,
 }
