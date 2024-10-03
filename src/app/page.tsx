@@ -8,6 +8,7 @@ import {
 	Counts,
 	CTASchools,
 	HomeGallery,
+	Explore,
 } from "@/sections";
 
 export default function Home() {
@@ -22,6 +23,7 @@ export default function Home() {
 			<Counts />
 			<CTASchools />
 			<HomeGallery />
+			<Explore />
 		</main>
 	);
 }

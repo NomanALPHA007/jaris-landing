@@ -8,6 +8,8 @@ import Experience from "./home/experience";
 import Counts from "./home/counts";
 import CTASchools from "./home/cta-schools";
 import HomeGallery from "./home/home-gallery";
+import Explore from "./shared/explore";
+import DiscoverJaris from "./shared/discover-jaris";
 
 export {
   Hero,
@@ -19,4 +21,6 @@ export {
   Counts,
   CTASchools,
   HomeGallery,
+  Explore,
+  DiscoverJaris,
 }
