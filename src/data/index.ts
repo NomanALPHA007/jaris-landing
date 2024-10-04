@@ -1,18 +1,79 @@
 import { ICONS } from "@/utils/icons";
 
+// Navbar
+export const navItems = [
+	{
+		name: "Home",
+		link: "/",
+		sublinks: [
+			{
+				name: "Who we are",
+				link: "/",
+			},
+			{
+				name: "Our Schools",
+				link: "/",
+				sublinks: [
+					{
+						name: "FJARIS",
+						link: "/",
+					},
+					{
+						name: "SJARIS",
+						link: "/",
+					},
+					{
+						name: "TJARIS",
+						link: "/",
+					},
+				]
+			},
+			{
+				name: "Facilities",
+				link: "/",
+			},
+		],
+	},
+	{
+		name: "Admission",
+		link: "/admission",
+		sublinks: [
+			{
+				name: "Admission Info",
+				link: "/",
+			},
+		],
+	},
+	{
+		name: "Portal",
+		link: "",
+	},
+	{
+		name: "About",
+		link: "/link",
+	},
+	{
+		name: "Contact",
+		link: "/contact",
+	},
+];
+
 // Shared
 export const exploreItems = [
 	{
 		title: "News",
-		description: "Stay in the Loop! Explore the Latest Updates and Discover What's Happening Now!",
+		description:
+			"Stay in the Loop! Explore the Latest Updates and Discover What's Happening Now!",
 	},
 	{
 		title: "Our Schools",
-		description: "Take the First Step Toward Excellence. Explore Our Schools and Find the Perfect Fit for Your Future!",
+		description:
+			"Take the First Step Toward Excellence. Explore Our Schools and Find the Perfect Fit for Your Future!",
 	},
 	{
 		title: "Academy",
-		description: "Unlock Your True Potential! Discover Our Academy and Start Shaping Your Success Today!",
+		description:
+			"Unlock Your True Potential! Discover Our Academy and Start Shaping Your Success Today!",
 	},
 ];
 
@@ -113,4 +174,4 @@ export const ctaSchoolsCarouselItems = [
 		subtitle: "I fell in love with photography in ninth grade at HW.",
 		imgUrl: "/images/home/cta-school-carousel-slide-1.png",
 	},
-]
+];
