@@ -1,3 +1,10 @@
+// Navbar
+import Header from "./shared/header";
+
+// Shared
+import Explore from "./shared/explore";
+import DiscoverJaris from "./shared/discover-jaris";
+
 // Home
 import Hero from "./home/hero";
 import Discover from "./home/discover";
@@ -8,10 +15,9 @@ import Experience from "./home/experience";
 import Counts from "./home/counts";
 import CTASchools from "./home/cta-schools";
 import HomeGallery from "./home/home-gallery";
-import Explore from "./shared/explore";
-import DiscoverJaris from "./shared/discover-jaris";
 
 export {
+  Header,
   Hero,
   Discover,
   JoinUs,

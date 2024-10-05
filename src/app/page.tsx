@@ -9,10 +9,14 @@ import {
 	CTASchools,
 	HomeGallery,
 	Explore,
+	DiscoverJaris,
+	Header,
 } from "@/sections";
 
 export default function Home() {
 	return (
+		<>
+		<Header />
 		<main className="">
 			<Hero />
 			<Discover />
@@ -24,6 +28,8 @@ export default function Home() {
 			<CTASchools />
 			<HomeGallery />
 			<Explore />
+			<DiscoverJaris />
 		</main>
+		</>
 	);
 }
