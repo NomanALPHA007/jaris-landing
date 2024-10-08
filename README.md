@@ -3,22 +3,22 @@
 ## Contributing to the Jaris Landing Page Project
 
 1. **Fork the Repository**
-   - Go to [Jaris Landing Page on GitHub](https://github.com/Advanced-Robotics-Systems/whitecode-landing) and click the "Fork" button at the top right of the page.
+   - Go to [Jaris Landing Page on GitHub](https://github.com/Advanced-Robotics-Systems/jaris-landing) and click the "Fork" button at the top right of the page.
 
 2. **Clone Your Fork**
    - Clone the repository to your local machine using the following command:
      ```bash
-     git clone https://github.com/<your-username>/whitecode-landing.git
+     git clone https://github.com/<your-username>/jaris-landing.git
      ```
 
 3. **Set Upstream Remote**
    - Navigate to the project directory:
      ```bash
-     cd whitecode-landing
+     cd jaris-landing
      ```
    - Add the original repository as an upstream remote to keep your fork up to date:
      ```bash
-     git remote add upstream https://github.com/Advanced-Robotics-Systems/whitecode-landing.git
+     git remote add upstream https://github.com/Advanced-Robotics-Systems/jaris-landing.git
      ```
 
 4. **Pull Updates from Upstream**
