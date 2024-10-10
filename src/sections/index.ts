@@ -16,6 +16,10 @@ import Counts from "./home/counts";
 import CTASchools from "./home/cta-schools";
 import HomeGallery from "./home/home-gallery";
 
+// Admission
+import AdmissionForm from "./admission/admissionForm";
+import AdmissionProcedure from "./admission/admissionProcedure";
+
 export {
   Header,
   Hero,
@@ -29,4 +33,6 @@ export {
   HomeGallery,
   Explore,
   DiscoverJaris,
-}
+  AdmissionForm,
+  AdmissionProcedure,
+};
